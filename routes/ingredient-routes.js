@@ -6,6 +6,9 @@ import * as ingredientController from "../controllers/ingredient-controller.js";
 
 const router = express.Router();
 
-router.route("/").get(ingredientController.index);
+router
+  .route("/")
+  .get(ingredientController.index)
+  .post(ingredientController.add);
 
 export default router;
