@@ -11,4 +11,6 @@ router
   .get(ingredientController.index)
   .post(ingredientController.add);
 
+router.route("/:id").patch(ingredientController.update);
+
 export default router;

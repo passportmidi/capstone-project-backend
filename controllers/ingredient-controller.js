@@ -38,4 +38,28 @@ const add = async (req, res) => {
   }
 };
 
-export { index, add };
+const update = async (req, res) => {
+  try {
+    const rowsUpdated = await knex("ingredients")
+      .where({ id: req.params.id })
+      .update(req.body);
+
+    if (rowsUpdated === 0) {
+      return res.status(404).json({
+        message: `Ingredient with ID ${req.params.id} not found`,
+      });
+    }
+
+    const updatedIngredient = await knex("ingredients").where({
+      id: req.params.id,
+    });
+
+    res.json(updatedIngredient[0]);
+  } catch (error) {
+    res.status(500).json({
+      message: `Unable to update ingredient with ID ${req.params.id}: ${error}`,
+    });
+  }
+};
+
+export { index, add, update };
