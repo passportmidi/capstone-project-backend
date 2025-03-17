@@ -4,7 +4,8 @@
   "description": "Backend database and API for Capstone project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
   "homepage": "https://github.com/passportmidi/capstone-project-backend#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "knex": "^3.1.0",
     "mysql2": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
