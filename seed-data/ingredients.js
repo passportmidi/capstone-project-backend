@@ -81,12 +81,12 @@ export default [
   },
   {
     name: "Baking powder",
-    volume: "1 teaspoon",
+    volume: "1 tsp",
     grams: "4",
   },
   {
     name: "Baking soda",
-    volume: "1/2 teaspoon",
+    volume: "1/2 tsp",
     grams: "3",
   },
   {
@@ -116,12 +116,12 @@ export default [
   },
   {
     name: "Barley malt syrup",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "42",
   },
   {
     name: "Basil pesto",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "28",
   },
   {
@@ -196,7 +196,7 @@ export default [
   },
   {
     name: "Butter",
-    volume: "8 tablespoons (1/2 cup)",
+    volume: "1/2 cup",
     grams: "113",
   },
   {
@@ -206,7 +206,7 @@ export default [
   },
   {
     name: "Buttermilk powder",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "18",
   },
   {
@@ -226,7 +226,7 @@ export default [
   },
   {
     name: "Caraway seeds",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "18",
   },
   {
@@ -526,7 +526,7 @@ export default [
   },
   {
     name: "Egg whites (dried)",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "11",
   },
   {
@@ -536,7 +536,7 @@ export default [
   },
   {
     name: "Espresso powder",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "7",
   },
   {
@@ -561,7 +561,7 @@ export default [
   },
   {
     name: "Garlic (minced)",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "28",
   },
   {
@@ -626,7 +626,7 @@ export default [
   },
   {
     name: "Honey",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "21",
   },
   {
@@ -651,7 +651,7 @@ export default [
   },
   {
     name: "Lemon juice",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "14",
   },
   {
@@ -661,7 +661,7 @@ export default [
   },
   {
     name: "Malt syrup",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "43",
   },
   {
@@ -891,7 +891,7 @@ export default [
   },
   {
     name: "Poppy seeds",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "18",
   },
   {
@@ -986,17 +986,17 @@ export default [
   },
   {
     name: "Salt (Kosher, Diamond Crystal)",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "8",
   },
   {
     name: "Salt (Kosher, Morton's)",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "16",
   },
   {
     name: "Salt (table)",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "18",
   },
   {
@@ -1096,7 +1096,7 @@ export default [
   },
   {
     name: "Tapioca (quick cooking)",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "21",
   },
   {
@@ -1116,7 +1116,7 @@ export default [
   },
   {
     name: "Tomato paste",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "29",
   },
   {
@@ -1131,7 +1131,7 @@ export default [
   },
   {
     name: "Vanilla extract",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "14",
   },
   {
@@ -1146,7 +1146,7 @@ export default [
   },
   {
     name: "Vital wheat gluten",
-    volume: "2 tablespoons",
+    volume: "2 tbsp",
     grams: "18",
   },
   {
@@ -1196,7 +1196,7 @@ export default [
   },
   {
     name: "Yeast (instant)",
-    volume: "1 tablespoon",
+    volume: "1 tbsp",
     grams: "9",
   },
   {
