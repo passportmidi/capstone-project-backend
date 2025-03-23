@@ -11,6 +11,27 @@ const index = async (_req, res) => {
   }
 };
 
+const findOne = async (req, res) => {
+  try {
+    const ingredientsFound = await knex("ingredients").where({
+      id: req.params.id,
+    });
+
+    if (ingredientsFound.length === 0) {
+      return res.status(404).json({
+        message: `Ingredient with ID ${req.params.id} not found`,
+      });
+    }
+
+    const ingredientData = ingredientsFound[0];
+    res.json(ingredientData);
+  } catch (error) {
+    res.status(500).json({
+      message: `Unable to retrieve ingredient data for ingredient with ID ${req.params.id}`,
+    });
+  }
+};
+
 const add = async (req, res) => {
   const { name, volume, grams } = req.body;
 
@@ -83,4 +104,4 @@ const remove = async (req, res) => {
   }
 };
 
-export { index, add, update, remove };
+export { index, findOne, add, update, remove };

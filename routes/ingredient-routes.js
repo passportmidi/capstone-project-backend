@@ -13,6 +13,7 @@ router
 
 router
   .route("/:id")
+  .get(ingredientController.findOne)
   .patch(ingredientController.update)
   .delete(ingredientController.remove);
 
